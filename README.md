@@ -1,7 +1,7 @@
 # Dell Latitude 7210 2-in-1
 <br>
 
-<img width="1281" height="758" alt="2" src="https://github.com/user-attachments/assets/9aa09561-7582-4fb7-8ac7-77a9d7ed7e48" />
+<img width="1281" height="758" alt="1" src="https://github.com/user-attachments/assets/fb8ed231-b1ed-4088-ac10-42a4cf2e0519" />
 
 
 # Hardware Specification
@@ -238,7 +238,7 @@ Mostly follow OpenCore's Configuration.pdf and [Comet-Lake](https://dortania.git
   
      - AppleXcpmCfgLock -> Set to No if CFG Lock is disabled. Otherwise, enable this quirk.
      - CustomSMBIOSGuid -> If dual booting to other OSes other than macOS, set this to yes along with setting UpdateSMBIOSMode to "Custom" in PlatformInfo section.
-     - DisableIoMapper -> No (Require to enable AppleVTD; enabling AppleVTD with base DMAR table can cause wake issue from hibernation. Either set this quirk to Yes or drop original DMAR table and inject modified SSDT-DMAR table.
+     - DisableIoMapper -> No (Required to enable AppleVTD; enabling AppleVTD with base DMAR table can cause wake issue from hibernation. Either set this quirk to Yes or drop original DMAR table and inject modified SSDT-DMAR table.
      - DisableIoMapperMapping -> Yes (If enabling AppleVTD in Ventura+)
        
 - Misc
@@ -407,7 +407,7 @@ WWAN slot
       
 # Geekbench 6
 
-<img width="837" height="797" alt="3" src="https://github.com/user-attachments/assets/e991dc7e-0361-49df-83ef-4099f63530b1" />
+<img width="837" height="797" alt="2" src="https://github.com/user-attachments/assets/7317e57c-7b1b-40a5-ab52-6c7d34e0d23b" />
 
 # Resources
 
