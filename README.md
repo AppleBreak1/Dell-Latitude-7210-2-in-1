@@ -380,7 +380,7 @@ Sleep/Resume
       - Misc -> Boot -> Hibernatemode -> NVRAM
       - Misc -> Boot -> HibernateSkipsPicker -> Yes
 
- - Note 1: Make sure to drop original DMAR table and inject modified DMAR table to load AppleVTD as original DMAR table can cause wake issue from hibernation. Or, you may just disable AppleVTD by setting DisableIomapper to Yes. 
+ - Note 1: Make sure to drop original DMAR table and inject modified DMAR table to load AppleVTD as original DMAR table can cause wake issue from hibernation. Or, you may just disable AppleVTD by setting DisableIoMapper quirk to Yes. 
  - Note 2: ACPI -> Quirk -> ResetHwSig -> True is required to fix issues with wake from standby(S4).
    
  - Note 3: When in standby mode, the system could only wake via power button and it will continue from splash screen then straight into macOS if HibernateSkipsPicker is set to Yes
