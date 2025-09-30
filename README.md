@@ -414,7 +414,8 @@ WWAN slot
 
 - [Apple Inc](https://www.apple.com/) for MacOS.
 - [Acidanthera Team](https://github.com/acidanthera) for OpenCore Bootloader, its documentation, and KEXTS.
-- [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for thorough explanation.  
+- [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for thorough explanation.
+- [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C) for the support of I2C devices.
 
 
 Big thanks to Hackintosh community and those who contributed to make hackintosh possible from the beginning to the end!
