@@ -2,6 +2,11 @@
 <br>
 
 <img width="1281" height="758" alt="1" src="https://github.com/user-attachments/assets/fb8ed231-b1ed-4088-ac10-42a4cf2e0519" />
+<img width="350" height="262" alt="2" src="https://github.com/user-attachments/assets/b02d0543-3653-4848-bf3b-8baab094b722" />
+<img width="262" height="350" alt="3" src="https://github.com/user-attachments/assets/4d4be6c2-b3c9-4c69-a8cf-ef05862f7ee4" />
+<img width="350" height="263" alt="1" src="https://github.com/user-attachments/assets/8a5ccc0e-d601-4feb-b9c3-1a84a6d7739c" />
+
+
 
 
 # Hardware Specification
