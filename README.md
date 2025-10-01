@@ -257,7 +257,7 @@ Mostly follow OpenCore's Configuration.pdf and [Comet-Lake](https://dortania.git
 
 - HS01 -> Upper USB-C port
 - HS02 -> Lower USB-C port
-- HS03/SS03 -> Left side USB-A port
+- HS03/SS03 -> Right side USB-A port
 - HS04 -> Alps Trackpad 
 - HS06 -> Front RGB Camera
 - HS10 -> Bluetooth
