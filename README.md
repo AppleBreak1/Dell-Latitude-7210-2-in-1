@@ -335,7 +335,7 @@ Thunderbolt Configuration
 
 Sleep/Resume
 
-  - Supports S0, S3 and S4
+  - Supports S0, S3, and S4
   - After S0 resume, TB3/USB-C USB3 hotplug function is lost, touchscreen remains functional.
   - After S0 resume, IGPU frequency sometimes gets stuck at max.
   - After S3 resume, TB3/USB-C USB3 hotplug remain functional but touchscreen function is lost. (Workaround -> hibernation with hibernatemode 25 as needed)
@@ -345,7 +345,7 @@ Sleep/Resume
 
     Power Management Settings
 
-        sudo pmset -a lidwake 0               # Disable lidwake to prevent wake issues for S3, S4 
+        sudo pmset -a lidwake 0               # Disable lidwake to prevent wake issues for S3 and S4 
         sudo pmset -a proximitywake 0
         sudo pmset -a tcpkeepalive 0  
 
