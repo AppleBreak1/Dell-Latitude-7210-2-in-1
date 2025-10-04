@@ -280,8 +280,38 @@ Mostly follow OpenCore's Configuration.pdf and [Comet-Lake](https://dortania.git
   -  Black screen on built-in display when rotating or connecting/disconnecting to/from external display -> This was due to using custom resolution to enable HIDPI resolution. Workaround is to set display resolution back to its default in prior and scale the resolution afterwards.
   -  Auto-rotation feature does not work. To manually rotate the screen, press and hold option/alt key(Ventura) and go to Display setting in System Settings for rotation option to show up in display settings. Alternatively, use [displayplacer](https://github.com/jakehilborn/displayplacer). One can create multiple bash scripts for each screen resolution and simply change resolution with a click or a tap.
 
-      - Do note that when screen is rotated, scaling does not work. It will only work in default resolution.  Rotating screen requires first setting the resolution to default then rotate; otherwise, black screen. Doing this from the System Settings is time consuming and inconvenient. This is where displayplacer tool comes in handy to makes it quite convenient and even more so when in tablet mode.
+      - Do note that when screen is rotated, scaling does not work. It will only work in default resolution.  Rotating screen requires first setting the resolution to default then rotate; otherwise, black screen. Doing this from the System Settings is time consuming and inconvenient. This is where displayplacer tool comes in handy to make it quite convenient and even more so when in tablet mode.
 
+  - Adding Custom HiDPI resolutions
+
+    To add custom HiDPI resolutions, we need to create a display override file to be placed in Library(Not System/Library) folder for Big Sur+. Refer to Rehabman's [guide](https://www.tonymacx86.com/threads/adding-using-hidpi-custom-resolutions.133254/) for the instruction and you may use this [Tool](https://codeclou.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/) for convenience. Manually added custom resolutions may not show up in Display preferences but they will show up as an available resolutions in third party display resolution managing apps like SwitchResX or displayplacer tool.
+
+    Sample
+
+    <img width="1505" height="388" alt="1" src="https://github.com/user-attachments/assets/f606c717-821e-4b6d-b6f5-e90f024ea6a6" />
+
+
+    Display Override: [Displays.zip](https://github.com/user-attachments/files/22691416/Displays.zip)
+
+    - DisplayVendorID: 0x4d10    (5344)
+    - DisplayProductID: 0x14e0   (19728)
+
+    Added Resolutions
+
+        2562x1708
+        1281x854 (In order to enable 1281x854 HiDPI, we also need to add a resolution that is x2 of that resolution which is 2562x1708)
+        2400x1600
+        1200x800 
+        2700x1800
+        1350x900
+        2880x1920
+        1440x960
+
+       Note1: When making custom resolutions, make sure to keep the same aspect ratio as the default which 3:2
+    
+       Note2: Using HiDPI resolution may consume more power.
+
+    
   Audio
 
   - ALC layout-id 77 works.
