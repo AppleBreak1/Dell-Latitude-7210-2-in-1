@@ -421,7 +421,7 @@ Sleep/Resume
    
 Wi-Fi/Bluetooth
 
- - Comes with Intel® Wi-Fi 6 AX201 NGW -> Swapped with BCM94360NG module to enjoy Airplay/Airdrop/continuity features. (The wlan slot on this tablet is meant for one sided M.2 module and trying to fit in BCM94360NG can feel a little bit uncomfortable. Ended up not tightening the screw all the way)
+ - Comes with Intel® Wi-Fi 6 AX201 NGW -> Swapped with BCM94360NG module to enjoy Airplay/Airdrop/continuity features. (The wlan slot on this tablet is meant for one sided M.2 module and trying to fit in BCM94360NG can feel a bit tight. Ended up not tightening the screw all the way)
 
  - BCM94360NG speed issue with macOS
 
